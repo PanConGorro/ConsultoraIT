@@ -51,11 +51,11 @@ if ((btnMostrarInfo1 || btnMostrarInfo2) && infoAdicional && btnCerrarInfo) {
 }
 
 document.getElementById('ir-nosotros').addEventListener('click', function (e){
-    e.preventDefault();
-    const pag2 = document.getElementById('seccion-nosotros');
-    const offset = window.innerHeight - pag2.offsetHeight; 
-    const targetY = pag2.getBoundingClientRect().top + window.scrollY - offset;
-    window.scrollTo({ top: targetY, behavior: 'smooth' });
+    e.preventDefault();
+    const pag2 = document.getElementById('seccion-nosotros');
+    const offset = window.innerHeight - pag2.offsetHeight; 
+    const targetY = pag2.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top: targetY, behavior: 'smooth' });
 })
 
 function mostrarError(element, message, errorSpan) {
