@@ -721,7 +721,28 @@ footer p span{
     .texto-sector {
         font-size: 0.95rem;
     }
+
+    
 }
+
+@media(max-height: 824px){
+    .todos-los-servicios{
+        margin-top: -4rem;
+    }
+    .main-sectores, .main-contacto{
+        height: 40rem;
+    }
+}
+
+@media(max-height: 824px) and (max-width: 1500px){
+    .main-sectores{
+         height: 62rem;
+    }
+}
+
+
+
+
 
 @media(max-width: 1120px){
     .navegacion {
@@ -746,14 +767,9 @@ footer p span{
     }
 }
 
-@media(max-height: 824px){
-    .todos-los-servicios{
-        margin-top: -4rem;
-    }
-    .main-sectores, .main-contacto{
-        height: 40rem;
-    }
-}
+
+
+
 
 @media(max-height: 664px){
     .todos-los-servicios{
