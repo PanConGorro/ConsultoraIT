@@ -391,7 +391,7 @@ header{
 
 .linea-sectores{
     border-top: 3px solid var(--color-texto);
-    width: 10%;
+    width: 10rem;
 }
 
 .sectores-texto{
@@ -740,10 +740,6 @@ footer p span{
     }
 }
 
-
-
-
-
 @media(max-width: 1120px){
     .navegacion {
         padding-left: 0; 
@@ -767,10 +763,6 @@ footer p span{
     }
 }
 
-
-
-
-
 @media(max-height: 664px){
     .todos-los-servicios{
         margin-top: -2rem;
@@ -783,9 +775,7 @@ footer p span{
     .titulo-sector {
         font-size: 1.5rem;
     }
-    .linea-sectores{
-        display: none;
-    }
+
     .texto-sector {
         font-size: 0.93rem;
     }
@@ -923,6 +913,10 @@ footer p span{
     .main-sectores {
         height: 86rem;
         background: linear-gradient(var(--color-header) 10%, var(--color-principal) 70%);
+    }
+
+    .linea-sectores{
+        display: none;
     }
 
     .caja-sectores {
